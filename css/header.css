@@ -11,6 +11,10 @@ header {
   margin-top: 16px;
 }
 
+input[type="checkbox"]:checked ~ nav{
+    display: block;
+}
+
 .logo {
   display: inline-block;
   width: 68px;
