@@ -39,4 +39,7 @@
   .categories-cards {
     flex-direction: row;
   }
+  .categories-card {
+    width: 282px;
+  }
 }
