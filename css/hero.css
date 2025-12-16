@@ -6,8 +6,8 @@
 }
 
 .hero h2 {
-  padding: 24px 88px;
-  margin: 0px;
+  padding: 0px 24px;
+  margin: 88px 0;
   font-weight: var(--text-weight);
   font-size: 20px;
   text-align: center;
@@ -23,8 +23,8 @@
   }
 
   .hero h2 {
-    padding: 24px 88px;
-    margin: 0px;
+    padding: 0px 60px;
+    margin-top: 88px;
     font-weight: var(--text-weight);
     font-size: 32px;
     text-align: center;
@@ -41,17 +41,11 @@
   }
 
   .hero h2 {
-    padding: 24px 120px;
-    margin: 0px;
+    padding: 0px 120px;
+    margin-top: 104px;
     font-weight: var(--text-weight);
     font-size: 32px;
     text-align: center;
     line-height: 1.5;
-  }
-}
-
-@media screen and (min-width: 1920px) {
-  .hero h2 {
-    padding: 88px 160px;
   }
 }
